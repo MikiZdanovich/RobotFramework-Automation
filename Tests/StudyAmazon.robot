@@ -2,7 +2,7 @@
 Documentation  This is some basic info about the whole suite
 Resource  ../Resources/Amazon.robot
 Resource  ../Resources/common.robot
-Test Setup  Begin Web Test
+Test Setup  Begin W${Browser} =  ff
 Test Teardown  End Web Test
 
 *** Variables ***
